@@ -1,0 +1,32 @@
+{
+  "docs": [
+    {
+      "uuid": "ed6b1e83-66aa-411c-bb2c-760a3c0eb6f2",
+      "slug": "installation",
+      "path": "docs/INSTALLATION.md",
+      "title": "Installing C3 locally",
+      "blurb": "Learn how to install C3 locally to solve Exercism's exercises on your own machine"
+    },
+    {
+      "uuid": "1a17c6aa-3658-45fa-bf5f-cf11b9a743d6",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn C3",
+      "blurb": "An overview of how to get started from scratch with C3"
+    },
+    {
+      "uuid": "b9d6d6c1-de8c-4d8f-83d5-144cf00a72df",
+      "slug": "tests",
+      "path": "docs/TESTS.md",
+      "title": "Testing on the C3 track",
+      "blurb": "Learn how to test your C3 exercises on Exercism"
+    },
+    {
+      "uuid": "e6ea6b5f-2e4d-4730-a5b6-cbc6e9237840",
+      "slug": "resources",
+      "path": "docs/RESOURCES.md",
+      "title": "Useful C3 resources",
+      "blurb": "A collection of useful resources to help you master C3"
+    }
+  ]
+}

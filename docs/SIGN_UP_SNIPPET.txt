@@ -1,0 +1,13 @@
+fn String most_common_word(String text)
+{
+    HashMap{String, int} counts;
+    counts.tinit();
+    String best = "";
+    foreach (word : text.to_lower_tcopy().tsplit(" "))
+    {
+        int count = (counts.get(word) ?? 0) + 1;
+        counts.set(word, count);
+        if (count > (counts.get(best) ?? 0)) best = word;
+    }
+    return string::tformat("\"%s\" appears %d times", best, counts.get(best) ?? 0);
+}
